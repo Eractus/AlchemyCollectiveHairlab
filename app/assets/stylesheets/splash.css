@@ -176,6 +176,65 @@
   font-weight: 500;
 }
 
+.splash-appointments {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/splash8.jpg");
+  background-size: cover;
+}
+
+.splash-appointments > p {
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px white;
+  z-index: 2;
+}
+
+.splash-appointments > button {
+  font-size: 20px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 200;
+  background-color: #d4e0e4;
+}
+
+.splash-reviews {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282828;
+  color: white;
+}
+
+.splash-reviews-text {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.splash-reviews-text > h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.splash-reviews-text > h5 {
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.splash-reviews-text > p {
+  font-size: 18px;
+  font-weight: 200;
+  color: lightblue;
+}
+
 .splash-button > button {
   font-size: 20px;
   color: white;
