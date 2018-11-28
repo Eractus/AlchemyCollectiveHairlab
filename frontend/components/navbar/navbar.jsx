@@ -23,8 +23,9 @@ class Navbar extends React.Component {
           <li>
             <Link to="/gallery">GALLERY</Link>
           </li>
-          <li>
-            <Link to="/">APPOINTMENTS</Link>
+          <li className="navbar-appts">
+            <p className="navbar-appts-text">APPOINTMENTS</p>
+            <div className="navbar-appts-popup">Currently Unavailable. Check back soon!</div>
           </li>
           <li>
             <Link to="/reviews">REVIEWS</Link>

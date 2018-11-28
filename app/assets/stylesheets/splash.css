@@ -15,6 +15,7 @@
   background-image: url("../images/ACH-art-logo.png");
   background-size: cover;
   z-index: 2;
+  visibility: hidden;
 }
 
 .splash-photostream-images {
@@ -104,7 +105,75 @@
   min-width: 275px;
   height: 412px;
   background-image: url("../images/splash6.jpg");
-  background-size: contain;
+  background-size: cover;
+}
+
+.splash-services {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/splash7.jpg");
+  background-size: cover;
+}
+
+.splash-services > p {
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px white;
+  z-index: 2;
+}
+
+.splash-gallery {
+  padding: 75px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+}
+
+.splash-gallery-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.splash-gallery-photos > li {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  list-style-type: none;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.splash-gallery-photos li:nth-child(1) {
+  background-image: url("../images/splash1.jpg");
+}
+
+.splash-gallery-photos li:nth-child(2) {
+  background-image: url("../images/splash2.jpg");
+}
+
+.splash-gallery-photos li:nth-child(3) {
+  background-image: url("../images/splash3.jpg");
+}
+
+.splash-gallery-photos li:nth-child(4) {
+  background-image: url("../images/splash4.jpg");
+}
+
+.splash-gallery-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.splash-gallery-text > p {
+  color: white;
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: 500;
 }
 
 .splash-button > button {
@@ -120,4 +189,5 @@
 .splash-button > button:hover {
   color: lightblue;
   background-color: white;
+  border-radius: 5px;
 }

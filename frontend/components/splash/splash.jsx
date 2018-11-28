@@ -35,8 +35,16 @@ class Splash extends React.Component {
           <Link className="splash-button" to="/services"><button>Our Services</button></Link>
         </section>
         <section className="splash-gallery">
-          <p>Take a Glimpse Inside Our Lab</p>
-          <Link className="splash-button" to="/gallery"><button>See All</button></Link>
+          <ul className="splash-gallery-photos">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <div className="splash-gallery-text">
+            <p>Take a Glimpse Inside Our Lab</p>
+            <Link className="splash-button" to="/gallery"><button>See All</button></Link>
+          </div>
         </section>
         <section className="splash-appointments">
           <p>Book Online Today!</p>
