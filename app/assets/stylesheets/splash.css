@@ -74,6 +74,12 @@
   background-size: 100% 100%;
 }
 
+.splash-photostream-images span:nth-child(6) {
+  animation-delay: 20s;
+  background-image: url("../images/splash6.jpg");
+  background-size: 100% 100%;
+}
+
 .splash-about-us {
   background-color: #282828;
   color: white;
@@ -104,7 +110,7 @@
 .splash-about-us > article > span {
   min-width: 275px;
   height: 412px;
-  background-image: url("../images/splash6.jpg");
+  background-image: url("../images/splash7.jpg");
   background-size: cover;
 }
 
@@ -113,7 +119,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/splash7.jpg");
+  background-image: url("../images/splash8.jpg");
   background-size: cover;
 }
 
@@ -181,7 +187,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/splash8.jpg");
+  background-image: url("../images/splash9.jpg");
   background-size: cover;
 }
 

@@ -6,17 +6,22 @@ class Splash extends React.Component {
     super(props)
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <main className="splash-container">
         <section className="splash-photostream">
           <span></span>
-          <div className="splash-photostream-images darken-overlay">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+          <div className="splash-photostream-images">
+            <span className="darken-overlay"></span>
+            <span className="darken-overlay"></span>
+            <span className="darken-overlay"></span>
+            <span className="darken-overlay"></span>
+            <span className="darken-overlay"></span>
+            <span className="darken-overlay"></span>
           </div>
         </section>
         <section className="splash-about-us">
