@@ -35,31 +35,6 @@ body {
   margin-right: 30px;
 }
 
-.navbar-appts {
-  position: relative;
-}
-
-.navbar-appts:hover .navbar-appts-popup{
-  visibility: visible;
-}
-
-.navbar-appts-text {
-  color: lightgrey;
-  text-decoration: line-through;
-}
-
-.navbar-appts-popup {
-  visibility: hidden;
-  font-size: 8px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px;
-  border: 1px solid lightblue;
-  border-radius: 3px;
-  text-align: center;
-}
-
 .navbar-links > li > a {
   color: black;
   text-decoration: none;

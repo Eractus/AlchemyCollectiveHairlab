@@ -26,15 +26,15 @@
   background-size: cover;
 }
 
-.services-container > main > section > div > ul {
-  list-style-type: circle;
-  font-weight: 300;
-}
-
 .services-container > main > section > div > p {
   color: lightblue;
   margin-top: 0;
   font-size: 25px;
+}
+
+.services-container > main > section > div > ul {
+  list-style-type: circle;
+  font-weight: 300;
 }
 
 .services-photo-one {

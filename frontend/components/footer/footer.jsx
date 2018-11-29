@@ -9,9 +9,9 @@ class Footer extends React.Component {
     return (
       <footer className="footer-container">
         <span></span>
-        <p>321 BUZZCUT DRIVE</p>
-        <p>KEFKA, FF</p>
-        <p>123-456-7890</p>
+        <p>18438 BROOKHURST STREET</p>
+        <p>FOUNTAIN VALLEY, CA 92708</p>
+        <p>714-679-4908</p>
       </footer>
     )
   }

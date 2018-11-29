@@ -51,11 +51,7 @@ class Splash extends React.Component {
             <Link className="splash-button" to="/gallery"><button>See All</button></Link>
           </div>
         </section>
-        <section className="splash-appointments darken-overlay">
-          <p>Book Online Today!</p>
-          <button>Coming Soon</button>
-        </section>
-        <section className="splash-reviews">
+        <section className="splash-reviews darken-overlay">
           <div className="splash-reviews-text">
             <h3>Here's What Our Customers Have to Say</h3>
             <h5>"Kefka is the man! Five stars!!!"</h5>

@@ -23,10 +23,6 @@ class Navbar extends React.Component {
           <li>
             <Link to="/gallery">GALLERY</Link>
           </li>
-          <li className="navbar-appts">
-            <p className="navbar-appts-text">APPOINTMENTS</p>
-            <div className="navbar-appts-popup">Currently Unavailable. Check back soon!</div>
-          </li>
           <li>
             <Link to="/reviews">REVIEWS</Link>
           </li>
@@ -35,7 +31,7 @@ class Navbar extends React.Component {
           </li>
         </ul>
         <Link className="navbar-contact-number" to="/contact">
-          <p>123-456-7890</p>
+          <p>714-679-4908</p>
         </Link>
       </nav>
     )
