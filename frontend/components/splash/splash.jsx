@@ -11,7 +11,7 @@ class Splash extends React.Component {
       <main className="splash-container">
         <section className="splash-photostream">
           <span></span>
-          <div className="splash-photostream-images">
+          <div className="splash-photostream-images darken-overlay">
             <span></span>
             <span></span>
             <span></span>
@@ -30,7 +30,7 @@ class Splash extends React.Component {
           </article>
           <Link className="splash-button" to="/about"><button>Learn More</button></Link>
         </section>
-        <section className="splash-services">
+        <section className="splash-services darken-overlay">
           <p>What We Specialize In</p>
           <Link className="splash-button" to="/services"><button>Our Services</button></Link>
         </section>
@@ -46,7 +46,7 @@ class Splash extends React.Component {
             <Link className="splash-button" to="/gallery"><button>See All</button></Link>
           </div>
         </section>
-        <section className="splash-appointments">
+        <section className="splash-appointments darken-overlay">
           <p>Book Online Today!</p>
           <button>Coming Soon</button>
         </section>

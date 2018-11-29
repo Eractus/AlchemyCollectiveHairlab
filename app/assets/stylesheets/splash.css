@@ -200,6 +200,7 @@
   border-radius: 5px;
   font-weight: 200;
   background-color: #d4e0e4;
+  z-index: 2;
 }
 
 .splash-reviews {
@@ -233,6 +234,25 @@
   font-size: 18px;
   font-weight: 200;
   color: lightblue;
+}
+
+.darken-overlay {
+  position: relative;
+}
+
+.darken-overlay:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.splash-button {
+  z-index: 2;
 }
 
 .splash-button > button {

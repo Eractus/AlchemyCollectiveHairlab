@@ -7,7 +7,10 @@ import Footer from "./footer/footer";
 const App = () => (
   <div>
     <Navbar />
-    <Splash />
+    <Switch>
+      <Route path="/" component={Splash} />
+      <Redirect to="/" />
+    </Switch>
     <Footer />
   </div>
 );
