@@ -22,7 +22,7 @@ class Reviews extends React.Component {
               <h3>If we rocked your hair world, tag our stylist and share your photo and experience on Instagram!</h3>
               <ul>
                 <li>
-                  <h5>"Kefka is the man! Five stars!!!"</h5>
+                  <h5>"Kefka is the man! 5/5 stars!!!"</h5>
                   <p>-Ameer A.</p>
                 </li>
                 <li>

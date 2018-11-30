@@ -26,13 +26,8 @@ class Navbar extends React.Component {
           <li>
             <Link to="/reviews">REVIEWS</Link>
           </li>
-          <li>
-            <Link to="/contact">CONTACT</Link>
-          </li>
         </ul>
-        <Link className="navbar-contact-number" to="/contact">
-          <p>714-679-4908</p>
-        </Link>
+        <p className="navbar-contact-number">714-679-4908</p>
       </nav>
     )
   }
