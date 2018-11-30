@@ -4,7 +4,8 @@ import Navbar from "./navbar/navbar";
 import Splash from "./splash/splash";
 import About from "./about/about";
 import Services from "./services/services";
-import Reviews from "./reviews/reviews"
+import Gallery from "./gallery/gallery";
+import Reviews from "./reviews/reviews";
 import Footer from "./footer/footer";
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
     <Switch>
       <Route path="/about" component={About} />
       <Route path="/services" component={Services} />
+      <Route path="/gallery" component={Gallery} />
       <Route path="/reviews" component={Reviews} />
       <Route path="/" component={Splash} />
       <Redirect to="/" />

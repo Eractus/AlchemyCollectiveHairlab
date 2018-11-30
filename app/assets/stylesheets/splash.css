@@ -6,18 +6,6 @@
   position: relative;
 }
 
-.splash-photostream > span {
-  position: absolute;
-  top: calc(50% - 150px);
-  left: calc(50% - 150px);
-  height: 320px;
-  width: 350px;
-  background-image: url("../images/ACH-art-logo.png");
-  background-size: cover;
-  z-index: 2;
-  visibility: hidden;
-}
-
 .splash-photostream-images {
   height: calc(100vh + 120px);
   width: 100vw;

@@ -4,6 +4,7 @@
   width: 100vw;
   display: flex;
   position: relative;
+  border-bottom: 1px solid lightblue;
 }
 
 .header > p {

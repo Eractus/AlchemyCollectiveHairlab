@@ -14,7 +14,6 @@ class Splash extends React.Component {
     return (
       <main className="splash-container">
         <section className="splash-photostream">
-          <span></span>
           <div className="splash-photostream-images">
             <span className="darken-overlay"></span>
             <span className="darken-overlay"></span>
